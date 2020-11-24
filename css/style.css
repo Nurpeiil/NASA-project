@@ -1,0 +1,488 @@
+body{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/cos.jpg')center / cover;
+}
+.logo_img{
+    background: url('../img/nasa.png') center / cover;
+    width: 100px;
+    height: 100px;
+}
+.marquee{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+.marquee h2{
+    font-size: 34px;
+    margin: 0px;
+    color: white;
+}
+.marquee p{
+    font-size: 24px;
+    margin: 0px;
+    color: white;
+}
+.marquee ul{
+    padding: 0px;
+}
+.head_text{
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head_center{
+    width: 700px;
+}
+.head_center h1{
+    font-size: 50px;
+    color: yellow;
+    font-weight: bold;
+}
+.head_center p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.download{
+    background-color: rgb(50, 50, 50);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    transition: 0.5s;
+}
+.head_center span:hover .download{
+    transition: .5s;
+    background-color: rgb(70, 70, 70);
+    padding: 16px 30px;
+}
+main{
+    padding: 50px 20px;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    background: url('../img/tower.jpg') center / cover;
+}
+.sec2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.three_block{
+    width: 30%;
+    height: 480px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 15px;
+}
+.inherit_text{
+    display: none;
+}
+.three_block:hover .inherit_text{
+    display: inline;
+}
+.inherit_text p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.download_purple{
+    padding: 8px 16px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 0, 0);
+    color: blue;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.inherit_text a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: crimson;
+}
+.img1{
+    background: url('../img/1.jpg') center / cover;
+}
+.img2{
+    background: url('../img/2.jpg') center / cover;
+}
+.img3{
+    background: url('../img/3.png') center / cover;
+}
+.three_block h1{
+    font-size: 32px;
+}
+.main_text h1{
+    margin: 70px 0px;
+    font-size: 45px;
+    color: rgb(100, 100, 100);
+}
+.four_block{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mini_four_blocks{
+    width: 20%;
+    height: 200px;
+}
+.img4{
+    background: url('../img/4.jpg') center / cover;
+}
+.img5{
+    background: url('../img/5.jpg') center / cover;
+}
+.img6{
+    background: url('../img/6.jpg') center / cover;
+}
+.img7{
+    background: url('../img/7.jpeg') center / cover;
+}
+.sec5{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.left_block{
+    width: 45%;
+}
+.left_block h1{
+    font-size: 28px;
+}
+.left_block p{
+    font-size: 17px;
+}
+.right_block{
+    width: 40%;
+}
+.right_block video{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background: url('../img/foot.jpg') center / cover;
+    text-align: center;
+    padding: 30px 0px;
+}
+footer h1{
+    font-size: 32px;
+    color: white;
+}
+.inner_url a{
+    text-decoration: none;
+}
+.inner_url a i{
+    font-size: 30px;
+    color: white;
+    margin: 0px 10px;
+}
+hr{
+    margin-top: 30px;
+    width: 80%;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact a{
+    text-decoration: none;
+    margin: 20px 10px;
+}
+.contact a p{
+    color: white;
+}
+@media screen and (max-width:1317px){
+    .span3{
+        display: none;
+    }
+}
+@media screen and (max-width:1236px){
+    .span2{
+        display: none;
+    }
+}
+@media screen and (max-width:1145px){
+    .three_block{
+        width: 28%;
+        height: 450px;
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width:1081px){
+    .left_block h1{
+        font-size: 24px;
+    }
+    .left_block p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:976px){
+    .left_block h1{
+        font-size: 22px;
+    }
+    .left_block p{
+        font-size: 15px;
+    }
+    .main_text h1{
+        margin: 50px 0px;
+        font-size: 40px;
+        color: rgb(100, 100, 100);
+    }
+}
+@media screen and (max-width:919px){
+    .left_block h1{
+        font-size: 20px;
+    }
+    .left_block p{
+        font-size: 14px;
+    }
+    footer h1{
+        font-size: 28px;
+    }
+    .inner_url a i{
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+    hr{
+        margin-top: 30px;
+        width: 70%;
+    }
+    .contact a{
+        margin: 20px 10px;
+    }
+    .head_center h1{
+        font-size: 42px;
+    }
+    .head_center p{
+        font-size: 18px;
+    }
+    .download{
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+    .head_center span:hover .download{
+        padding: 16px 25px;
+    }
+    .logo_img{
+        width: 80px;
+        height: 80px;
+    }
+    .marquee h2{
+        font-size: 25px;
+    }
+    .marquee p{
+        font-size: 18px;
+    }
+    .three_block{
+        width: 27%;
+        height: 420px;
+        padding: 20px 15px;
+    }
+    .inherit_text p{
+        font-size: 15px;
+    }
+    .inherit_text a{
+        font-size: 18px;
+    }
+    header{
+        height: 80vh;
+    }
+    .left_block h1{
+        font-size: 18px;
+    }
+    .left_block p{
+        font-size: 14px;
+    }
+    .span1{
+        display: none;
+    }
+}
+@media screen and (max-width:726px){
+    footer{
+        padding: 18px 0px;
+    }
+    footer h1{
+        font-size: 25px;
+    }
+    .inner_url a i{
+        font-size: 20px;
+    }
+    hr{
+        margin-top: 20px;
+        width: 70%;
+    }
+    .contact a{
+        margin: 15px 8px;
+        font-size: 15px;
+    }
+    .main_text h1{
+        margin: 30px 0px;
+        font-size: 32px;
+    }
+    .left_block p{
+        font-size: 14px;
+    }
+    .span{
+        display: none;
+    }
+}
+@media screen and (max-width:662px){
+    .banner{
+        width: 100%;
+        height: 30vh;
+    }
+    .sec5{
+        flex-wrap: wrap;
+    }
+    .left_block{
+        width: 100%;
+        text-align: center;
+    }
+    .span1{
+        display: inherit;
+    }
+    .three_block{
+        width: 27%;
+        height: 360px;
+    }
+    .inherit_text p{
+        font-size: 14px;
+    }
+    .download_purple{
+        padding: 6px 12px;
+    }
+    .inherit_text a{
+        font-size: 17px;
+    }
+    .three_block h1{
+        font-size: 28px;
+    }
+    .head_center h1{
+        font-size: 35px;
+    }
+    .head_center p{
+        font-size: 14px;
+        padding: 0px 60px;
+    }
+    .right_block{
+        width: 350px;
+    }
+}
+@media screen and (max-width:600px){
+    .three_block{
+        width: 40%;
+        height: 420px;
+        padding: 20px 15px;
+        margin: 10px 0px;
+    }
+    .right_block{
+        width: 350px;
+    }
+}
+@media screen and (max-width:534px){
+    header{
+        height: 60vh;
+    }
+    .head_text{
+        height: 30vh;
+    }
+    .mini_four_blocks{
+        width: 40%;
+        height: 150px;
+        margin: 5px 0px;
+    }
+    .marquee h2{
+        font-size: 20px;
+    }
+    .marquee p{
+        font-size: 15px;
+    }
+    .logo_img{
+        width: 60px;
+        height: 60px;
+    }
+    .three_block{
+        width: 38%;
+        height: 300px;
+        padding: 20px 15px;
+        margin: 10px 0px;
+    }
+    .three_block h1{
+        font-size: 20px;
+    }
+    .inherit_text p{
+        font-size: 10px;
+    }
+    .download_purple{
+        padding: 5px 5px;
+    }
+    .right_block{
+        width: 300px;
+    }
+}
+@media screen and (max-width:365px){
+    .three_block{
+        width: 35%;
+        height: 300px;
+    }
+    header{
+        height: 60vh;
+    }
+    .marquee h2{
+        font-size: 17px;
+    }
+    .marquee p{
+        font-size: 12px;
+    }
+    .logo_img{
+        width: 50px;
+        height: 50px;
+    }
+    .head_center h1{
+        font-size: 28px;
+    }
+    .head_center p{
+        font-size: 10px;
+        padding: 0px 60px;
+    }
+    .download{
+        padding: 6px 15px;
+        border-radius: 8px;
+    }
+    .head_center span:hover .download{
+        padding: 6px 15px;
+    }
+}
+@media screen and (max-width:320px){
+    header{
+        height: 60vh;
+    }
+    .marquee h2{
+        font-size: 12px;
+    }
+    .marquee p{
+        font-size: 9px;
+    }
+    .logo_img{
+        width: 40px;
+        height: 40px;
+    }
+    .head_text{
+        height: 30vh;
+    }
+    .head_center h1{
+        font-size: 20px;
+    }
+}
